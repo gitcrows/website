@@ -25,58 +25,96 @@
 <body>
 
   <h1 class="site-heading text-center text-white d-none d-lg-block ">
-    <span class="site-heading-lower text-primary"><b>8X8</span>
+    <span class="site-heading-lower text-primary" style="font-size: 300%"><b><b>8X8</span>
   </h1>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">8X8</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded text-center" style="font-size: 200%" href="index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">Why 8x8</a>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" style="font-size: 200%" href="about.html">Why 8x8</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+            <a class="nav-link text-uppercase text-expanded" style="font-size: 200%" href="products.html">Products</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="store.html">Get a Quote</a>
+            <a class="nav-link text-uppercase text-expanded" style="font-size: 200%" href="store.html">Get a Quote</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="page-section about-heading">
-    <div class="container">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0 p-2" src="img/about.jpg" alt="">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0 p-2" src="img/about.jpg" alt="">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0 p-2" src="img/about.jpg" alt="">
-      <div class="about-heading-content">
-        <div class="row">
-          <div class="col-xl-9 col-lg-10 mx-auto p-2">
-          
-              
-             
-            </div>
-          </div>
-        </div>
+  <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link text-danger" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <b><b>8x8 vs RingCentral
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      <span class="section-heading-lower text-danger text-center"><b><b><b>Security/Compliance</span></b>
+      <p> <b>8x8: Meets tough pircacy and security standards like HIPAA, BAA and FISMA 140-2 to meet the needs of your business</p>
+      <p> <b>RingCentral: Limited compliance with PCI, FINRA, and HIPAA</p>
+      <span class="section-heading-lower text-danger text-center"><b><b><b>Global Reach</span></b>
+      <p> <b>8x8: Covering over 90 countries and providing multiple languages.</p>
+      <p> <b>RingCentral: Covering less than 40 countries and limited language options.</p>
+      <span class="section-heading-lower text-danger text-center"><b><b><b>Superior call quality</span></b>
+      <p> <b>8x8: Delivered the highest score in 17/24 scenarios. Provides consistent call quality that your business csn depend upon.</p>
+      <p> <b>RingCentral: Had highest score in 4/24 scenarios.</p>
+      <span class="section-heading-lower text-danger text-center"><b><b><b>Industry Leadership</span></b>
+      <p> <b>8x8: Ranked as a leader for 7 straight years in Gartner's UCaaS Magic Quadrant.</p>
+      <p> <b>RingCentral: Has been in service for only 4 years and hence hasn't been recognised as long as 8x8 in business VoIP.</p>
       </div>
     </div>
-  </section>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed text-danger" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <b><b>8x8 vs Grasshopper
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+  <div class="card">
+  <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed text-danger" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <b><b>8x8 vs Vonage
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      </div>
+    </div>
+  </div>
+</div>
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 small">Copyright &copy; 8x8</p>
     </div>
   </footer>
 
